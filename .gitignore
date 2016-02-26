@@ -1,0 +1,11 @@
+Packages
+.build
+Sources/main.swift
+Public
+Resources
+.DS_Store
+Carthage/
+Xcode/Ocean/Ocean.xcodeproj/project.xcworkspace/xcuserdata/
+Xcode/Ocean/Ocean.xcodeproj/project.xcworkspace/xcshareddata/
+Xcode/Ocean/Ocean.xcodeproj/xcuserdata/
+*.swp
