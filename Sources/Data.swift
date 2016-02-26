@@ -5,11 +5,11 @@
 #endif
 
 class Data {
-    let bytes: UnsafeMutablePointer<UInt8>
+    let bytes: UnsafeMutablePointer<Int8>
     let capacity: Int
     
     init(capacity: Int) {
-        bytes = UnsafeMutablePointer<UInt8>(malloc(capacity + 1))
+        bytes = UnsafeMutablePointer<Int8>(malloc(capacity + 1))
         self.capacity = capacity
     }
     
